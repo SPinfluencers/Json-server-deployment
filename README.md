@@ -4,30 +4,15 @@ A fake RESTful API for testing purposes, running using the npm module **json-ser
 
 ## Installation
 
-Run npm to install all dependencies:
-
-```sh
-npm install
-```
-
-Now you are ready to deploy to Heroku:
-
-```sh
-# Login with your Heroku account
-heroku login
-
-# Create the project
-heroku create your-api-project-name
-
-# Deploy to Heroku
-git push heroku master
-```
-
-Test your API by running:
-
-```sh
-heroku open
-```
+1. open folder vs code
+2. git clone 'github repo'
+3. git init
+4. git add .
+5. git commit -m 'textline'
+6. heroku login
+7. heroku create
+8. git push heroku main
+9. heroku open
 
 ## Editing the initial data
 
